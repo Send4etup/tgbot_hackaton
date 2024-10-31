@@ -13,7 +13,7 @@ settings = InlineKeyboardMarkup(inline_keyboard=[[
     InlineKeyboardButton(text='Ну это ютубчик твой любимый, да, зависимый?', url='https://youtube.com')]
     ])
 
-cars = ['Koenigsegg', 'Pagain', 'Mclaren', 'Ferrari', 'Lamborghini']
+cars = ['Koenigsegg', 'Pagani', 'Mclaren', 'Ferrari', 'Lamborghini']
 
 async def inline_cars():
     keyboard = InlineKeyboardBuilder()
